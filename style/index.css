@@ -98,3 +98,123 @@ div.imag {
 div.text-container {
     margin: 60px 45px 55px;
 }
+
+.Contact-Form {
+    width: 90%;
+    margin: 0 auto;
+    background-image: linear-gradient(to left bottom, #d9e183, #c5e594, #b4e8a7, #a8eab9, #a1eaca, #9ae3cb, #95dbca, #92d3c9, #86c3bb, #7ab4ad, #6ea5a0, #639692);
+    text-align: center;
+    padding: 68.5px;
+}
+
+.Contact-Form h2 {
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.Contact-Form p {
+    color: #9999B9;
+    margin-bottom: 50px;
+}
+
+.input-fields {
+    width: 45%;
+    float: left;
+    overflow: hidden;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.input-fields input {
+    width: 354px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 3px;
+}
+
+.msg {
+    width: 45%;
+    overflow: hidden;
+    margin-top: 70px;
+}
+
+.msg textarea {
+    width: 354px;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    height: 160px;
+    border: 0;
+    border-radius: 3px;
+    resize: none;
+}
+
+.Contact-Form button {
+    padding: 15px 20px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: 1px solid green;
+    background: blue;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.Contact-Form button:hover {
+    border: 1px solid blue;
+    background: none;
+}
+
+.details {
+    width: 300px;
+    height: 150px;
+    color: black;
+    padding: 10px;
+    float: left;
+    background-image: linear-gradient(to right top, #d9e183, #c5e594, #b4e8a7, #a8eab9, #a1eaca, #9ae3cb, #95dbca, #92d3c9, #86c3bb, #7ab4ad, #6ea5a0, #639692);
+    overflow: hidden;
+    margin-right: 45%;
+    margin-top: 100px;
+    border-radius: 3px;
+    margin-bottom: 50px;
+}
+
+.details:last-child {
+    margin-right: 0;
+}
+
+.details h3 {
+    padding-top: 30px;
+    font-size: 16px;
+    color: black;
+    font-style: normal;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.details p {
+    font-size: 13px;
+    font-family: Arial;
+    color: black;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-transform: capitalize;
+    margin-left: 10px;
+    margin-bottom: 2px;
+}
+
+footer {
+    background-color: black;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-top: 250px;
+    color: white;
+    text-align: center
+}
