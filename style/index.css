@@ -205,13 +205,12 @@ div.text-container {
     margin: 0;
     padding: 0;
     text-align: left;
-    text-transform: capitalize;
     margin-left: 10px;
     margin-bottom: 2px;
 }
 
 footer {
-    background-color: black;
+    background-color: rgba(46, 34, 34, 0.774);
     padding-bottom: 20px;
     padding-top: 20px;
     margin-top: 250px;
