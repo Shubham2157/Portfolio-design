@@ -68,6 +68,7 @@ div.main {
     align-items: center;
     background-image: linear-gradient(to right bottom, #97ea8c, #a2ee8a, #aef189, #b9f587, #c5f886, #cefa88, #d7fb8a, #e0fd8d, #e8fd94, #effe9b, #f5fea2, #fbffaa);
     justify-content: center;
+    font-family: 'Lato', sans-serif;
 }
 
 div.container {
