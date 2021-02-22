@@ -61,3 +61,39 @@ nav ul {
     color: cyan;
     font-family: 'Lato', sans-serif;
 }
+
+div.main {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right bottom, #97ea8c, #a2ee8a, #aef189, #b9f587, #c5f886, #cefa88, #d7fb8a, #e0fd8d, #e8fd94, #effe9b, #f5fea2, #fbffaa);
+    justify-content: center;
+}
+
+div.container {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+p {
+    font-weight: 300;
+    line-height: 28px;
+    margin: 0 0 30px 0;
+}
+
+div.imag {
+    height: 110px;
+    width: 110px;
+    background: url("https://image.flaticon.com/icons/png/512/25/25231.png");
+    background-size: contain;
+    background-position: center;
+}
+
+div.text-container {
+    margin: 60px 45px 55px;
+}
